@@ -36,7 +36,7 @@ function clearDisplay() {
     updateDisplay();
 }
 
-// core mathematical operations requested in requirements
+
 function add(a, b) { return a + b; }
 function subtract(a, b) { return a - b; }
 function multiply(a, b) { return a * b; }
@@ -63,7 +63,7 @@ function calculate() {
     updateDisplay();
 }
 
-// Extra Credit: Keyboard Input Handling
+
 window.addEventListener('keydown', (event) => {
     if (event.key >= '0' && event.key <= '9') appendNumber(event.key);
     if (event.key === '+') setOperator('+');
